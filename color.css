@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   background-image: url(images.jpg);
   background-repeat:no-repeat ;
@@ -5,3 +6,79 @@ body{
   background-attachment: fixed;
 }
 
+=======
+*{margin: 0;
+  padding: 0;
+
+}
+body{
+  background-image: url(images.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;}
+  
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px;
+  
+}
+img{
+  width: 50px;
+  
+}
+nav ul{
+  list-style: none;
+align-items: center;
+  display: flex;
+  
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: aliceblue;
+  padding: 15px 20px;
+  background-color: rgba(102, 161, 219, 0.815);
+  margin: 20px;
+  border-radius: 1rem;
+  
+}
+nav ul li a:hover{
+  background-color:  rgb(120, 128, 8);
+}
+div{
+  margin: 20px;
+  align-items: center;
+ 
+  
+}
+h1{
+ color: rgb(120, 128, 8);
+  font-size: 50px;
+}
+p{
+  font-size: 20px;color: antiquewhite;
+}
+button{
+  margin-top: 20px;
+  padding: 5px;
+background-color: rgb(90, 138, 228); 
+}
+
+button a{
+  text-decoration: none;
+  color: rgb(233, 223, 223);
+}
+button:hover{
+  background-color: aqua;
+}
+
+
+
+
+>>>>>>> 5443a2c (Adding CSS formatting to links and text)
