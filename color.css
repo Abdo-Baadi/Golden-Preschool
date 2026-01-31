@@ -48,10 +48,10 @@ nav ul li a{
   border-radius: 1rem;
   
 }
-nav ul li a:hover,.{
+nav ul li a:hover,.ho{
   background-color:  rgb(120, 128, 8);
 }
-div{
+div{text-align: center;
   margin: 15px;
   align-items: center;
  
@@ -59,17 +59,19 @@ div{
 }
 h1{
  color: rgb(120, 128, 8);
-  font-size: 50px;
+  font-size: 60px;
 }
 p{
-  font-size: 20px;color: antiquewhite;
+  font-size: 30px;color: rgb(53, 49, 45);
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 button{
   margin-top: 20px;
-  padding: 5px;
+  padding: 10px;
 background-color: rgb(90, 138, 228); 
 border-radius: 5px;
+border: 2px solid;
+
 }
 
 button a{
