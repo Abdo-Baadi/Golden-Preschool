@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{margin-top: 50px;
+    
+    text-align: center;
+    align-items: center;
+}
+h2{font-size: 50px;
+    color:rgb(120, 128, 8) ;
+}
+p{font-size: 20px;
+    margin-top: 20px;
+    color: rgb(24, 7, 7);
+}
