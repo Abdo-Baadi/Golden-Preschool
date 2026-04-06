@@ -1,17 +1,32 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(203, 228, 228);
 }
-div{margin-top: 50px;
-    
+div{margin: 50px auto;
+    max-width: 900px;
+    padding: 0 20px;
     text-align: center;
-    align-items: center;
 }
 h2{font-size: 50px;
     color:rgb(120, 128, 8) ;
 }
-p{font-size: 20px;
-    margin-top: 20px;
-    color: rgb(24, 7, 7);
-    line-height: 1.6;
+p{font-size: 18px;
+    line-height: 1.8;
+    max-width: 650px;
+    margin: 20px auto;
+    text-align: center;
+    color: #444;
+    
 }
+@media screen and (max-width: 600px;){
+    h2{
+        font-size: 32px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+    
+
